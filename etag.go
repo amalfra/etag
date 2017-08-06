@@ -2,15 +2,11 @@ package etag
 
 import (
 	"crypto/sha1"
-	"encoding/hex"
 	"fmt"
 )
 
 func getHash(str string) string {
-	h := sha1.New()
-	h.Write([]byte(str))
-
-	return hex.EncodeToString(h.Sum(nil))
+	return fmt.Sprintf("%x", sha1.Sum([]byte(str)))
 }
 
 // Generate an Etag for given sring. Allows specifying whether to generate weak
