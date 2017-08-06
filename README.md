@@ -28,7 +28,7 @@ etag.Generate(body, true)
 
 Questions, problems or suggestions? Please post them on the [issue tracker](https://github.com/amalfra/etag/issues).
 
-You can contribute changes by forking the project and submitting a pull request. Feel free to contribute :heart_eyes:
+You can contribute changes by forking the project and submitting a pull request. You can ensure the tests are passing by running ```make test```. Feel free to contribute :heart_eyes:
 
 ## UNDER MIT LICENSE
 
