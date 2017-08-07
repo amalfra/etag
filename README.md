@@ -2,6 +2,8 @@ etag
 ========
 A go package to create HTTP ETags (as defined in RFC 7232) for use in HTTP responses.
 
+[![Build Status](https://travis-ci.org/amalfra/etag.svg?branch=master)](https://travis-ci.org/amalfra/etag)
+
 ## Installation
 You can download the package using
 ```sh
