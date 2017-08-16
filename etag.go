@@ -12,7 +12,7 @@ func getHash(str string) string {
 // Generate an Etag for given sring. Allows specifying whether to generate weak
 // Etag or not as second parameter
 func Generate(str string, weak bool) string {
-	tag := fmt.Sprintf("%d-%s", len(str), getHash(str))
+	tag := fmt.Sprintf("\"%d-%s\"", len(str), getHash(str))
 	if weak {
 		tag = "W/" + tag
 	}
