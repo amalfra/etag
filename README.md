@@ -1,5 +1,6 @@
 etag
 ========
+[![GitHub release](https://img.shields.io/github/release/amalfra/etag.svg)](https://github.com/amalfra/etag/releases)
 [![Build Status](https://travis-ci.org/amalfra/etag.svg?branch=master)](https://travis-ci.org/amalfra/etag)
 [![GoDoc](https://godoc.org/github.com/amalfra/etag?status.svg)](https://godoc.org/github.com/amalfra/etag)
 [![Go Report Card](https://goreportcard.com/badge/github.com/amalfra/etag)](https://goreportcard.com/report/github.com/amalfra/etag)
