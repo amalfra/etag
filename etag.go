@@ -9,7 +9,7 @@ func getHash(str string) string {
 	return fmt.Sprintf("%x", sha1.Sum([]byte(str)))
 }
 
-// Generate an Etag for given sring. Allows specifying whether to generate weak
+// Generates an Etag for given string. Allows specifying whether to generate weak
 // Etag or not as second parameter
 func Generate(str string, weak bool) string {
 	tag := fmt.Sprintf("\"%d-%s\"", len(str), getHash(str))
