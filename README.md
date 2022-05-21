@@ -2,22 +2,22 @@ etag
 ========
 [![GitHub release](https://img.shields.io/github/release/amalfra/etag.svg)](https://github.com/amalfra/etag/releases)
 ![Build Status](https://github.com/amalfra/etag/actions/workflows/test.yml/badge.svg?branch=main)
-[![GoDoc](https://godoc.org/github.com/amalfra/etag?status.svg)](https://godoc.org/github.com/amalfra/etag)
-[![Go Report Card](https://goreportcard.com/badge/github.com/amalfra/etag)](https://goreportcard.com/report/github.com/amalfra/etag)
+[![GoDoc](https://godoc.org/github.com/amalfra/etag/v2?status.svg)](https://godoc.org/github.com/amalfra/etag/v2)
+[![Go Report Card](https://goreportcard.com/badge/github.com/amalfra/etag/v2)](https://goreportcard.com/report/github.com/amalfra/etag/v2)
 
 A go package to create HTTP ETags (as defined in RFC 7232) for use in HTTP responses.
 
 ## Installation
 You can download the package using
 ```sh
-go get github.com/amalfra/etag
+go get github.com/amalfra/etag/v2
 ```
 
 ## Usage
 Next, import the package
 ``` go
 import (
-  "github.com/amalfra/etag"
+  "github.com/amalfra/etag/v2"
 )
 ```
 You can now call the ```generate``` function to create an ETag. The second parameter is a boolean which specifies whether the generated ETag must be weak or not.
