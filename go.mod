@@ -1,3 +1,3 @@
-module github.com/amalfra/etag/v3
+module github.com/amalfra/etag/v4
 
-go 1.18
+go 1.23.0
