@@ -3,7 +3,7 @@ etag
 [![GitHub release](https://img.shields.io/github/release/amalfra/etag.svg)](https://github.com/amalfra/etag/releases)
 ![Build Status](https://github.com/amalfra/etag/actions/workflows/test.yml/badge.svg?branch=main)
 [![GoDoc](https://godoc.org/github.com/amalfra/etag/v4?status.svg)](https://godoc.org/github.com/amalfra/etag/v4)
-[![Go Report Card](https://goreportcard.com/badge/github.com/amalfra/etag/4)](https://goreportcard.com/report/github.com/amalfra/etag/v4)
+[![Go Report Card](https://goreportcard.com/badge/github.com/amalfra/etag/v4)](https://goreportcard.com/report/github.com/amalfra/etag/v4)
 [![Coverage Status](https://coveralls.io/repos/github/amalfra/etag/badge.svg?branch=main)](https://coveralls.io/github/amalfra/etag?branch=main)
 
 A go package to create HTTP ETags (as defined in RFC 7232) for use in HTTP responses.
